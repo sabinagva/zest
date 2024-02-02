@@ -1,0 +1,30 @@
+.tarte-collections {
+    /* Add styles for the container */
+  }
+  
+  .tarte-makeup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin-left: 400px;
+  }
+  
+  .tarte-item {
+    text-align: center;
+  }
+  
+  .map-image {
+    /* Add styles for the image */
+    margin-right: 280px
+  }
+  
+  .item-name {
+    /* Add styles for the item name */
+    margin-right: 280px
+  }
+  
+  .btn {
+    border-radius: 20px;
+    background-color: rgb(246, 239, 229);
+
+  }
