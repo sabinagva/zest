@@ -1,31 +1,32 @@
-.tarte-collections {
-    /* Add styles for the container */
-  }
-  
-  .tarte-makeup {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 200px;
-    margin-left: 400px;
-  }
-  
-  .tarte-item {
-    text-align: center;
-  }
-  
-  .map-image {
-    /* Add styles for the image */
-    
-    margin-right: 280px
-  }
-  
-  .item-name {
-    /* Add styles for the item name */
-    margin-right: 280px
-  }
-  
-  .btn {
-    border-radius: 20px;
-    background-color: rgb(237, 237, 237);
+.tarte-makeup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjusted gap for better spacing */
+  margin-left: 200px; /* Adjusted margin for better alignment */
+}
 
-  }
+.tarte-item {
+  text-align: center;
+}
+
+.map-image {
+  /* Add styles for the image */
+  max-width: 100%; /* Ensure the image does not exceed its container width */
+}
+
+.item-details {
+  /* Add styles for the container of item name and button */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+}
+
+.item-name {
+  /* Add styles for the item name */
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: rgb(237, 237, 237);
+  cursor: pointer; /* Add cursor style for better user interaction */
+}
