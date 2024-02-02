@@ -8,13 +8,14 @@ import Shop from './pages/Shop';
 import Brands from './pages/Brands';
 import About from './pages/About';
 import Navbar from './components/navbar/Navbar';
-import Cart from './pages/Cart'
+import Cart from './pages/CartItems'
 import LoginSignup from './pages/LoginSignup'
 import NewCollections from "./components/NewCollections/NewCollections";
 import KylieCosmetics from "./pages/KylieCosmetics"
 import TarteCosmetics from "./pages/TarteCosmetics"
 import TwoFaced from "./pages/TooFaced"
 import RareBeauty from "./pages/RareBeauty";
+import CartItems from "./pages/CartItems";
 
 function App() {
   return (
@@ -31,8 +32,8 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/cart">
-            <Cart />
+          <Route exact path="/CartItems">
+            <CartItems />
           </Route>
           <Route exact path="/login">
             <LoginSignup />

@@ -1,7 +1,7 @@
 import './Navbar.css'
 import logo from '../Assets/zest1-removebg-preview.png'
 import cart from '../Assets/cart.png'
-import { useState } from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {

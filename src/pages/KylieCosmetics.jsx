@@ -11,6 +11,7 @@ const KylieCosmetics = () => {
       <hr />
       <div className='kylie-makeup'>
         {newCollection.map((item, i) => (
+           <div key={i} className='kylie-item'>
           <Item
             key={i}
             id={item.id}
@@ -20,6 +21,8 @@ const KylieCosmetics = () => {
             old_price={item.old_price}
             className={item.image ? 'map-image' : ''}  
           />
+            <button className='btn'>Add to Cart</button>
+          </div>
         ))}
       </div>
     </div>

@@ -1,0 +1,28 @@
+.too-collections {
+  /* Add styles for the container */
+}
+
+.too-makeup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjusted gap for better spacing */
+  margin-left: 300px; /* Adjusted margin for better alignment */
+}
+
+.too-item {
+  text-align: center;
+ 
+}
+
+.map-image {
+  margin-right: 280px
+}
+
+.item-name {
+  /* Add styles for the item name */
+}
+
+.btn {
+  border-radius: 20px;
+  background-color: rgb(237, 237, 237);
+}

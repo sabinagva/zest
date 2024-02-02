@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import newCollection from '../components/Assets/tartecosmetics.data';
 import Item from '../components/Item/item';
 import './TarteCosmetics.css';
 
+
 const TarteCosmetics = () => {
+  // const [cartItems, setCartItems] = useState= ([]);
+  // const addToCart = (product) => {
+  //   setCartItems([...cartItems, product])
+  //}
   return (
     <div className='tarte-collections'>
       <h1>Tarte Cosmetics</h1>
@@ -17,6 +22,7 @@ const TarteCosmetics = () => {
               image={item.image}
               new_price={item.new_price}
               old_price={item.old_price}
+              // addToCart={addToCart}
               className={item.image ? 'map-image' : ''}
             />
             <button className='btn'>Add to Cart</button>

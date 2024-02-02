@@ -1,0 +1,31 @@
+.rare-collections {
+    /* Add styles for the container */
+  }
+  
+  .rare-makeup {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjusted gap for better spacing */
+    margin-left: 400px; /* Adjusted margin for better alignment */
+  }
+  
+  .rare-item {
+    text-align: center;
+  }
+  
+  .map-image {
+    margin-right: 280px;
+    /* Add styles for the image */
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+  }
+  
+  .item-name {
+    /* Add styles for the item name */
+  }
+  
+  .btn {
+    border-radius: 20px;
+    background-color: rgb(237, 237, 237);
+    cursor: pointer; /* Add cursor style for better user interaction */
+  }
+  
